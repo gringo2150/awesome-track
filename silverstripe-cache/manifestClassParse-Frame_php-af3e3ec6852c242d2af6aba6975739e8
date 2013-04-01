@@ -1,0 +1,41 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'Frame',
+  ),
+  1 => 
+  array (
+    'className' => 'FrameList',
+    'interfaces' => 
+    array (
+      0 => 'IteratorAggregate',
+    ),
+  ),
+  2 => 
+  array (
+    'className' => 'FrameListIterator',
+    'interfaces' => 
+    array (
+      0 => 'Iterator',
+    ),
+  ),
+  3 => 
+  array (
+    'className' => 'FrameTreeList',
+    'interfaces' => 
+    array (
+      0 => 'IteratorAggregate',
+    ),
+  ),
+  4 => 
+  array (
+    'className' => 'FrameTreeIterator',
+    'interfaces' => 
+    array (
+      0 => 'Iterator',
+    ),
+  ),
+);
+				$interfaces = array (
+);

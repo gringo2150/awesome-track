@@ -1,0 +1,15 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'ImportModule',
+    'extends' => 'WorkflowCategory',
+  ),
+  1 => 
+  array (
+    'className' => 'ImportModule_Controller',
+    'extends' => 'Controller',
+  ),
+);
+				$interfaces = array (
+);

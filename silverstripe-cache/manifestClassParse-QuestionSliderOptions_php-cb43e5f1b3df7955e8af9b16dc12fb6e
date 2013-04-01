@@ -1,0 +1,10 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'QuestionSliderOptions',
+    'extends' => 'DataObject',
+  ),
+);
+				$interfaces = array (
+);

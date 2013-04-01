@@ -1,0 +1,10 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'SuccessDriver',
+    'extends' => 'DataObject',
+  ),
+);
+				$interfaces = array (
+);

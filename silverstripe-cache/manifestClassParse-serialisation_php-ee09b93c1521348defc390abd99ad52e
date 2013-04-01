@@ -1,0 +1,19 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'CS_REST_BaseSerialiser',
+  ),
+  1 => 
+  array (
+    'className' => 'CS_REST_NativeJsonSerialiser',
+    'extends' => 'CS_REST_BaseSerialiser',
+  ),
+  2 => 
+  array (
+    'className' => 'CS_REST_ServicesJsonSerialiser',
+    'extends' => 'CS_REST_BaseSerialiser',
+  ),
+);
+				$interfaces = array (
+);

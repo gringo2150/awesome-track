@@ -1,0 +1,11 @@
+<pageType label="Search Module - Extra Params" id="SearchModule_Edit_ExtraParams.frm" height="420" width="680" category="">
+  <label x="20" arrPos="1" y="0" width="640" id="extraParamsLabel" height="20" label="Enter any extra parameters to further limit the returned search results in the format of a comma seperated list of 'column:value' pairs." component="label"/>
+  <label x="20" arrPos="2" y="20" width="640" id="extraParamsLabel2" height="20" label="For example... Column1:Value1,Column2:Value2 would result in only results where 'Column1' = Value1 AND 'Column2' = Value2" component="label"/>
+  <label x="20" arrPos="3" y="40" width="640" id="extraParamsLabel3" height="20" label="being returned from the search." component="label"/>
+  <textBox tebOrder="" allowBlank="true" id="extraParams" arrPos="4" component="textBox" validation="none" tabOrder="" y="200" width="640" height="20" x="20" label="Extra Parameters" emptyText=""/>
+  <label x="20" arrPos="5" y="80" width="640" id="ExtraParamsLabel3" height="20" label="If you find the results aren't what you expected, you may be trying to search on a 'sudo' column. A sudo column is a column where" component="label"/>
+  <label x="20" arrPos="6" y="100" width="640" id="SearchModule_Edit_ExtraParams.frm_label_6" height="20" label="the value is calculated AFTER the records have been retrieved from the database, and it's value is not stored in the database itself." component="label"/>
+  <label x="20" arrPos="7" y="120" width="640" id="SearchModule_Edit_ExtraParams.frm_label_7" height="20" label="To search on a sudo column, simply type '[sudo]' at the beginning of the column name. Example... [sudo]Column1:Value1" component="label"/>
+  <label x="20" arrPos="8" y="160" width="640" id="SearchModule_Edit_ExtraParams.frm_label_8" height="20" label="TIP: For boolean values (true/false), use 1 for true and 0 for false." component="label"/>
+  <textBox component="textBox" id="columnModelParams" tabOrder="" emptyText="" allowBlank="true" validation="none" x="20" label="Column Model Params: comma seperated list of column model specific parameters" y="260" width="640" arrPos="9" height="20"/>
+</pageType>

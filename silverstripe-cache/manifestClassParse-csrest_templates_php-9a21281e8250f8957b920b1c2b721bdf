@@ -1,0 +1,10 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'CS_REST_Templates',
+    'extends' => 'CS_REST_Wrapper_Base',
+  ),
+);
+				$interfaces = array (
+);

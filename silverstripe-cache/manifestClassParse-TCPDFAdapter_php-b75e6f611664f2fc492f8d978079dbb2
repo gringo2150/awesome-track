@@ -1,0 +1,13 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'TCPDFAdapter',
+    'interfaces' => 
+    array (
+      0 => 'Canvas',
+    ),
+  ),
+);
+				$interfaces = array (
+);

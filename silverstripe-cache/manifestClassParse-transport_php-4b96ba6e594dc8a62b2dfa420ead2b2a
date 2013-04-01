@@ -1,0 +1,23 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'CS_REST_BaseTransport',
+  ),
+  1 => 
+  array (
+    'className' => 'CS_REST_CurlTransport',
+    'extends' => 'CS_REST_BaseTransport',
+  ),
+  2 => 
+  array (
+    'className' => 'CS_REST_SocketWrapper',
+  ),
+  3 => 
+  array (
+    'className' => 'CS_REST_SocketTransport',
+    'extends' => 'CS_REST_BaseTransport',
+  ),
+);
+				$interfaces = array (
+);

@@ -1,0 +1,10 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'ImageRenderer',
+    'extends' => 'BlockRenderer',
+  ),
+);
+				$interfaces = array (
+);

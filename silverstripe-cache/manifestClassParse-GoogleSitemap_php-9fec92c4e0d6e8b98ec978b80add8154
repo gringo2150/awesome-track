@@ -1,0 +1,15 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'GoogleSitemap',
+    'extends' => 'Controller',
+  ),
+  1 => 
+  array (
+    'className' => 'GoogleSitemapDecorator',
+    'extends' => 'SiteTreeDecorator',
+  ),
+);
+				$interfaces = array (
+);

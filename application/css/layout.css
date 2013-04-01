@@ -1,0 +1,175 @@
+body {
+	font-size: 11px;
+	font-family: tahoma,arial,verdana
+}
+
+.leftButton em {
+	float: left;
+	margin-left: 5px;
+	width: 100%;
+}
+
+.leftButton em button {
+	width: 100%;
+	text-align: left;
+}
+
+#mainNavPanel div.x-panel-body {
+	border-bottom-width: 0px;
+}
+
+.x-toolbar-cell .x-form-field-trigger-wrap {
+	width: auto !important;
+	margin-right: 18px !important;
+}
+
+.x-toolbar-cell .x-form-field-trigger-wrap img.x-form-date-trigger {
+	width: 17px !important;
+	margin-right: 0px !important;
+	/*left: 68px !important;*/
+	/*border-left: 1px solid #B5B8C8 !important;*/
+}
+
+.x-toolbar-cell .x-form-field-trigger-wrap input {
+	width: 114px !important;
+}
+
+/*.x-toolbar-cell .x-form-field-trigger-wrap .toolbarDate {
+	width: 85px !important;
+}*/
+
+.x-toolbar-cell .x-form-field-trigger-wrap input.toolbarDate {
+	width: 76px !important;
+}
+
+.inputContainer {
+	position: absolute;
+	display: block;
+}
+
+.inputContainer img.x-form-arrow-trigger{
+	height: 19px;
+}
+
+.inputContainer .x-form-field-wrap .x-form-trigger {
+	height: 19px !important;
+}
+
+/* upload fix */
+
+.inputContainer .x-form-file-text {
+	/* Fix this later to be conditional in some way */
+	width: 121px !important;
+}
+
+.inputLabel {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif;
+	font-size: 10px;
+	overflow: hidden;
+	height: 20px;
+	line-height: 20px;
+}
+
+.iblHRule {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	border-bottom: 1px solid #86A4BE;
+	font-size: 11px;
+	font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif;
+}
+
+.inputContainer .x-btn-small .x-btn-icon-small-left tr {
+	height: 1px !important;
+}
+
+.inputContainer .x-btn-text {
+	font-size: 10px !important;
+	height: 14px;
+} 
+
+.formTip .x-tip-mc{
+	/*background-color: #FF0000;*/
+}
+
+.tip-target {
+	width: 100px;
+	text-align:center;
+	padding: 5px 0;
+	border:1px dotted #99bbe8;
+	background:#dfe8f6;
+	color: #15428b;
+	cursor:default;
+	margin:10px;
+	font:bold 11px tahoma,arial,sans-serif;
+	float:left;
+}
+
+.x-tree-node-icon {
+	height: 16px !important;
+}
+
+.disabledFormInput,
+.disabledFormInput input {
+	color: #666666 !important;
+}
+
+.wmButton .x-btn-split {
+	background: url('../images/extra/close.png') center right no-repeat !important;
+}
+
+.infoBox {
+	font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+}
+
+.red {
+	background: #FF0000;
+}
+
+.green {
+	background: #00FF00;
+}
+
+.yellow {
+	background: #FF00FF;
+}
+
+.right_align {
+	text-align: right;
+}
+
+.remainingMonthsLabel {
+	text-align: center;
+	background-color: #CCD8E7;
+	padding: 2px 10px;
+	font-size: 10px;
+	line-height: 16px;
+	vertical-align: middle;
+}
+
+.totalBoxGreen {
+	background-color: #00CC00;
+	background-image: none;
+	color: #FFFFFF;
+}
+
+.totalBoxRed {
+	background-color: #990000;
+	background-image: none;
+	color: #FFFFFF;
+}
+
+.totalBoxBold {
+	color: #000000;
+	font-weight: bold;
+	border-color: #000000;
+}
+
+.iblTabItem {
+	/*background: #DFE8F6;*/
+}

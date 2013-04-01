@@ -1,0 +1,75 @@
+#Container p {
+	color:#333333;
+	font:11px arial,tahoma,verdana,helvetica;
+	padding: 10px;
+}
+
+#Container form {
+	border: 1px solid #99BBE8;
+	padding: 5px;
+	clear: both;
+}
+
+#Container form .actions {
+	clear: both;
+}
+
+#Container form input.text {
+	border: 1px solid #99BBE8;
+	width: 99%;
+	height: 20px;
+	line-height: 20px;
+}
+
+#Container form input.action {
+	/*height: 25px;
+	line-height: 25px;*/
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 5px;
+}
+
+#Container form p {
+	text-align: right;
+}
+
+#Container form p.message {
+	text-align: left !important;
+	margin-bottom: 5px;
+}
+
+#Container .bad {
+	border: 1px solid #FF0000;
+	background: #FFFFFF;
+}
+
+#Container form #ForgotPassword {
+	padding-right: 2px;
+}
+
+#Container form #Remember {
+	text-align: left !important;
+	padding: 5px;
+	padding-left: 0px;
+}
+
+#Container form #Remember label {
+	height: 18px;
+	line-height: 18px;
+}
+
+#Container form label {
+	color:#333333;
+	font:11px arial,tahoma,verdana,helvetica;
+}
+
+#Container form fieldset {
+	border: 0px;
+}
+
+/* Icon Classes */
+
+.login-icon {
+	background: url(../images/login/lock.png) 0 4px no-repeat !important;
+}

@@ -1,0 +1,19 @@
+<?php
+				$classes = array (
+  0 => 
+  array (
+    'className' => 'Application',
+    'extends' => 'Page',
+  ),
+  1 => 
+  array (
+    'className' => 'Application_Controller',
+    'extends' => 'Page_Controller',
+    'interfaces' => 
+    array (
+      0 => 'PermissionProvider',
+    ),
+  ),
+);
+				$interfaces = array (
+);
