@@ -295,28 +295,32 @@ color:#222222;
 }
 *.x-btn{
 font:normal 13px tahoma , verdana , helvetica;
+/*background: #CDCDCD;*/
+/*padding-left: 5px;
+padding-right: 5px;*/
 }
 
-.x-btn.x-toolbar {
+*.x-btn.x-toolbar {
 	background: #157fcc;
-	
 }
 
-.x-btn.x-toolbar button {
+*.x-btn.x-toolbar button {
 	color: #FFF !important;
 }
 
 *.x-btn button{
 font:normal 13px arial , tahoma , verdana , helvetica;
-color:#000;
+/* #000 */
+color:#333f49;
 }
 *.x-btn em{
 font-style:normal;
 font-weight:normal;
 }
 *.x-btn-tl, *.x-btn-tr, *.x-btn-tc, *.x-btn-ml, *.x-btn-mr, *.x-btn-mc, *.x-btn-bl, *.x-btn-br, *.x-btn-bc{
-/*background-image: url(../images/pluto/button/btn.gif);
-background: #d9d9d9;*/
+/*background-image: url(../images/pluto/button/btn.gif);*/
+/*background: #d9d9d9;*/
+background: none;
 }
 *.x-btn-click *.x-btn-text, *.x-btn-menu-active *.x-btn-text, *.x-btn-pressed *.x-btn-text{
 color:#000000;
@@ -484,6 +488,13 @@ border-color:#000084;
 *.x-resizable-overlay{
 background-color:#ffffff;
 }
+/*Window handles may move to window section...*/
+*.x-window *.x-window-handle {
+opacity: 0 !important;
+-moz-opacity: 0 !important;
+filter: alpha(opacity=0) !important;
+}
+
 *.x-grid3{
 background-color:#ffffff;
 }
@@ -512,16 +523,22 @@ background-color:#ffffff;
 background-image:url(../images/pluto/shared/loading-balls.gif);
 }
 *.x-grid3-row{
-border-color:#1e90ff;
+/*border-color:#1e90ff;
 border-top-color:#30a2ff;
+border: 0px;*/
+border-color:#fafafa;
+border-top-color:#ededed;
 }
 *.x-grid3-row-alt{
 background-color:#fafafa;
 }
 *.x-grid3-row-over{
-border-color:#0e80ff;
+/*border-color:#0e80ff;
 background-color:#efefef;
 background-image:url(../images/pluto/grid/row-over.gif);
+border: 0px;*/
+border-color:#e2eff8;
+background-color:#c1ddf1;
 }
 *.x-grid3-resize-proxy{
 background-color:#858585;
@@ -687,7 +704,8 @@ background-image:url(../images/pluto/grid/grid3-special-col-bg.gif);
 background-image:url(../images/pluto/grid/row-check-sprite.gif);
 }
 *.x-grid3-body *.x-grid3-td-numberer{
-background-image:url(../images/pluto/grid/grid3-special-col-bg.gif);
+/*background-image:url(../images/pluto/grid/grid3-special-col-bg.gif);*/
+background: #f5f5f5;
 }
 *.x-grid3-body *.x-grid3-td-numberer *.x-grid3-cell-inner{
 color:#111111;
@@ -1171,7 +1189,8 @@ background-image:url(../images/pluto/box/l-blue.gif);
 background-image:url(../images/pluto/box/r-blue.gif);
 }
 *.x-combo-list{
-border-color:#006ffa;
+/*border-color:#006ffa;*/
+border-color: #003fca;
 background-color:#dddddd;
 font-weight:normal;
 font-size:14px;
@@ -1193,10 +1212,12 @@ border-bottom-color:#0061ec;
 }
 *.x-combo-list-item{
 border-color:#30a2ff;
+border: none;
 }
 *.x-combo-list *.x-combo-selected{
 border-color:#001aa5 !important;
 background-color:#f0f0f0;
+border: none !important;
 }
 *.x-combo-list *.x-toolbar{
 border-top-color:#005fea;
@@ -1291,10 +1312,11 @@ font:normal 11px arial , tahoma , helvetica , sans-serif;
 *.x-window-proxy{
 background-color:#ffffff;
 border-color:#157fcc;
+border-radius: 8px;
 }
 
 *.x-window-body {
-	padding-left: 6px;
+	/*padding-left: 6px;*/
 }
 
 *.x-window-tl *.x-window-header{
@@ -1304,42 +1326,57 @@ height: 21px;
 line-height: 21px;
 font-size: 17px;
 font-family:helvetica;
-background: #157fcc;
+background: #3892d3;
 }
 *.x-window-tc{
 /*background-image:url(../images/pluto/window/top-bottom.png);*/
 height: 30px;
 line-height: 30px;
-background: #157fcc;
+background: #3892d3;
 }
 *.x-window-tl{
 /*background-image:url(../images/pluto/window/left-corners.png);*/
 height: 30px;
 line-height: 30px;
 font-size: 17px;
-background: #157fcc;
+background: #3892d3;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
 }
 *.x-window-tr{
 /*background-image:url(../images/pluto/window/right-corners.png);*/
 height: 30px;
 line-height: 30px;
-background: #157fcc;
+background: #3892d3;
+border-top-right-radius: 8px;
 }
+
+*.x-window-bc *.x-window-footer {
+background: #dfeaf2;
+border-bottom: 6px solid #3892d3 !important;
+padding: 6px 5px 6px 5px;
+clear: both;
+}
+
 *.x-window-bc{
 /*background-image:url(../images/pluto/window/top-bottom.png);*/
-background: #157fcc;
+background: #3892d3;
 }
 *.x-window-bl{
 /*background-image:url(../images/pluto/window/left-corners.png);*/
-height: 0px;
-background: #157fcc;
+/*height: 0px;*/
+background: #3892d3;
+/*padding: 0px;*/
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
 }
 *.x-window-br{
 /*background-image:url(../images/pluto/window/right-corners.png);*/
-background: #157fcc;
+background: #3892d3;
+border-bottom-right-radius: 8px;
 }
 *.x-window-mc{
-border-color:#157fcc;
+border-color:#3892d3;
 font-weight:normal;
 font-size:13px;
 font-family:helvetica;
@@ -1347,11 +1384,13 @@ background-color:#f6f6f6;
 }
 *.x-window-ml{
 /*background-image:url(../images/pluto/window/left-right.png);*/
-padding-left: 0px;
+/*padding-left: 0px;*/
+background: #3892d3;
 }
 *.x-window-mr{
 /*background-image:url(../images/pluto/window/left-right.png);*/
-padding-right: 0px;
+/*padding-right: 0px;*/
+background: #3892d3;
 }
 *.x-window-maximized *.x-window-tc{
 background-color:#ffffff;

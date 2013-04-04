@@ -26,8 +26,8 @@ class Resources_Controller extends Controller {
 		$scriptData = Resources_Controller::importWorkflows('../application/javascript/workflows/');
 		ContentNegotiator::disable();
 		$this->getResponse()->addHeader('Content-Type', 'text/javascript; charset="utf-8"');
-		return JSMin::minify($scriptData);
-		//return $scriptData;
+		//return JSMin::minify($scriptData);
+		return $scriptData;
 	}
 	
 	

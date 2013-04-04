@@ -294,7 +294,7 @@ class Application_Controller extends Page_Controller implements PermissionProvid
 			foreach ($modules as $module) {
 				if (Permission::check(strtoupper(str_replace(" ", "_", $module->name)))) {
 					$icon = '';
-					if($image = DataObject::get_by_id('Image', $module->imageID)) {	
+					if($image = DataObject::get_by_id('Image', $module->imageID)) {
 						if($smImage = $image->setSize(16,16)) {
 							$icon = $smImage->URL;
 						}

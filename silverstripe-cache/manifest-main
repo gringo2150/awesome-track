@@ -12,6 +12,13 @@ $_CLASS_MANIFEST = array (
   'searchmodule' => '/var/www/BugTracker/SearchModule/code/SearchModule.php',
   'application' => '/var/www/BugTracker/application/code/Application.php',
   'application_controller' => '/var/www/BugTracker/application/code/Application.php',
+  'bug' => '/var/www/BugTracker/application/code/Database/Application/Bug.php',
+  'checklist' => '/var/www/BugTracker/application/code/Database/Application/CheckList.php',
+  'feature' => '/var/www/BugTracker/application/code/Database/Application/Feature.php',
+  'message' => '/var/www/BugTracker/application/code/Database/Application/Message.php',
+  'milestone' => '/var/www/BugTracker/application/code/Database/Application/Milestone.php',
+  'plannedfeature' => '/var/www/BugTracker/application/code/Database/Application/PlannedFeature.php',
+  'project' => '/var/www/BugTracker/application/code/Database/Application/Project.php',
   'systemparameter' => '/var/www/BugTracker/application/code/Database/System/SystemParameter.php',
   'workflowcategory' => '/var/www/BugTracker/application/code/Database/System/WorkflowCategory.php',
   'workflowitem' => '/var/www/BugTracker/application/code/Database/System/WorkflowItem.php',
@@ -576,6 +583,48 @@ $_ALL_CLASSES = array (
       'Controller' => 'Controller',
       'ContentController' => 'ContentController',
       'Page_Controller' => 'Page_Controller',
+    ),
+    'Bug' => 
+    array (
+      'Object' => 'Object',
+      'ViewableData' => 'ViewableData',
+      'DataObject' => 'DataObject',
+    ),
+    'CheckList' => 
+    array (
+      'Object' => 'Object',
+      'ViewableData' => 'ViewableData',
+      'DataObject' => 'DataObject',
+    ),
+    'Feature' => 
+    array (
+      'Object' => 'Object',
+      'ViewableData' => 'ViewableData',
+      'DataObject' => 'DataObject',
+    ),
+    'Message' => 
+    array (
+      'Object' => 'Object',
+      'ViewableData' => 'ViewableData',
+      'DataObject' => 'DataObject',
+    ),
+    'Milestone' => 
+    array (
+      'Object' => 'Object',
+      'ViewableData' => 'ViewableData',
+      'DataObject' => 'DataObject',
+    ),
+    'PlannedFeature' => 
+    array (
+      'Object' => 'Object',
+      'ViewableData' => 'ViewableData',
+      'DataObject' => 'DataObject',
+    ),
+    'Project' => 
+    array (
+      'Object' => 'Object',
+      'ViewableData' => 'ViewableData',
+      'DataObject' => 'DataObject',
     ),
     'SystemParameter' => 
     array (
@@ -3791,6 +3840,13 @@ $_ALL_CLASSES = array (
     array (
       'ReportItem' => 'ReportItem',
       'SavedQuery' => 'SavedQuery',
+      'Bug' => 'Bug',
+      'CheckList' => 'CheckList',
+      'Feature' => 'Feature',
+      'Message' => 'Message',
+      'Milestone' => 'Milestone',
+      'PlannedFeature' => 'PlannedFeature',
+      'Project' => 'Project',
       'SystemParameter' => 'SystemParameter',
       'WorkflowCategory' => 'WorkflowCategory',
       'WorkflowItem' => 'WorkflowItem',
@@ -4167,6 +4223,13 @@ $_ALL_CLASSES = array (
       'Aggregate_Relationship' => 'Aggregate_Relationship',
       'ReportItem' => 'ReportItem',
       'SavedQuery' => 'SavedQuery',
+      'Bug' => 'Bug',
+      'CheckList' => 'CheckList',
+      'Feature' => 'Feature',
+      'Message' => 'Message',
+      'Milestone' => 'Milestone',
+      'PlannedFeature' => 'PlannedFeature',
+      'Project' => 'Project',
       'SystemParameter' => 'SystemParameter',
       'WorkflowCategory' => 'WorkflowCategory',
       'WorkflowItem' => 'WorkflowItem',
@@ -4762,6 +4825,13 @@ $_ALL_CLASSES = array (
       'Aggregate_Relationship' => 'Aggregate_Relationship',
       'ReportItem' => 'ReportItem',
       'SavedQuery' => 'SavedQuery',
+      'Bug' => 'Bug',
+      'CheckList' => 'CheckList',
+      'Feature' => 'Feature',
+      'Message' => 'Message',
+      'Milestone' => 'Milestone',
+      'PlannedFeature' => 'PlannedFeature',
+      'Project' => 'Project',
       'SystemParameter' => 'SystemParameter',
       'WorkflowCategory' => 'WorkflowCategory',
       'WorkflowItem' => 'WorkflowItem',
@@ -5749,6 +5819,13 @@ $_ALL_CLASSES = array (
     'SearchModule' => 'SearchModule',
     'Application' => 'Application',
     'Application_Controller' => 'Application_Controller',
+    'Bug' => 'Bug',
+    'CheckList' => 'CheckList',
+    'Feature' => 'Feature',
+    'Message' => 'Message',
+    'Milestone' => 'Milestone',
+    'PlannedFeature' => 'PlannedFeature',
+    'Project' => 'Project',
     'SystemParameter' => 'SystemParameter',
     'WorkflowCategory' => 'WorkflowCategory',
     'WorkflowItem' => 'WorkflowItem',
